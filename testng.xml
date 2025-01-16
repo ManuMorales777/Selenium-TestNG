@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+  <test name="DemoQA">
+    <classes>
+      <class name="examen.selenium.manumorales777.UseTestNG">
+        <methods>
+          <include name="navigateToHome"/>
+          <include name="goToElements"/>
+          <include name="TestElements"/>
+          <include name="TestAdvanceForms"/>
+          <include name="navigateToHomeDropDown"/>
+          <include name="dropdownTest"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
